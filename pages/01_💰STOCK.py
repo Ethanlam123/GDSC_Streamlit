@@ -15,7 +15,7 @@ st.title('💰STOCK Dashboard')
 
 # Sidebar: Add or remove stock tickers
 st.sidebar.title('Stock Ticker Options')
-ticker_input = st.sidebar.text_input('Enter a stock ticker')
+ticker_input = ...
 start_date = ...
 end_date = ...
 
@@ -23,12 +23,14 @@ end_date = ...
 def add_ticker():
     pass
 
-# @st.cache_data
+# Remove a ticker
 def remove_ticker(ticker_to_remove):
     pass
 
 def display_stock_data(ticker):
+    df=...
     pass
+    display_custom_plot(df)
 
 def display_custom_plot(df):
     pass
